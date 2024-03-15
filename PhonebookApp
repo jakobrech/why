@@ -1,0 +1,15 @@
+public class PhonebookApp {
+
+    public static void main(String[] args) {
+
+        Contact contact1 = new Contact("Pati Castillo", "123456789");
+        Contact contact2 = new Contact("Jakob Rechtweg", "987654321");
+        Contact contact3 = new Contact("Fake Name", "555123456");
+        
+        System.out.println("Hash code for contact1: " + contact1.hashCode());
+        System.out.println("Hash code for contact2: " + contact2.hashCode());
+        System.out.println("Hash code for contact3: " + contact3.hashCode());
+
+    }
+
+}
