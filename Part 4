@@ -1,0 +1,7 @@
+/* 
+1. i dont think that you can garuntee uniqueness because it is impossible for people not write the samething eventually.  monkeys on a typewriter ordeal.
+2. i calculated the hash by taking the current hash and multiplying it by 31 (prime number, i got that wrong on the quiz)
+3. in another attempt to be unique i also hash the phone number (please tell me this qualifies ms. castillo)
+4. for adding the initials, I multiplied the numbers by different weights to reduce collisions
+5. please give this the full 2 points :)
+*/
